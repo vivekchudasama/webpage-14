@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+html {
+    background-color: #111111;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.logo {
+    width: 25%;
+}
+
+.nav-items {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+
+    width: 60%;
+    justify-content: space-evenly;
+
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.main-image {
+    width: 40%;
+}
+
+.main-image img {
+    height: 80vh;
+}
+
+.main-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-content p:first-child {
+    color: #FF3343;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.main-content h1 {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1.2em;
+}
+
+.main-content p:nth-child(3) {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #C91B28;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    width: fit-content;
+}
+
+.talent {
+    background: rgb(24,24,24);
+    background: linear-gradient(90deg, rgba(24,24,24,1) 50%, rgba(17,17,17,1) 50%); 
+    padding: 100px 0;
+}
+
+.talent-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: #1E1E1E;
+    padding: 40px 60px;
+    width: 16%;
+    flex-shrink: 0;
+}
+
+.card img {
+    height: 84px;
+}
+
+.card h2 {
+    color: #ffffff;
+}
+
+.card p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.card a {
+    color: #C91B28;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.years {
+    width: 20%;
+    text-align: center;
+}
+
+.years h1 {
+    color: #C91B28;
+    font-size: 120px;
+}
+
+.years p {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 23px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1E1E1E;
+    width: 40%;
+    flex-shrink: 0;
+
+    padding: 15px 20px;
+}
+
+.stat h1 {
+    color: #C91B28;
+    font-size: 50px;
+}
+
+.stat p {
+    color: #ffffff;
+}
+
+.heading {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    color: #ffffff;
+    width: 30%;
+}
+
+.left h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.button a {
+    background-color: #FF3343;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 60px;
+    flex-wrap: wrap;
+
+    padding-bottom: 100px;
+}
+
+.image {
+    background-color: #1E1E1E;
+    padding: 40px 30px;
+}
+
+.image img {
+    width: 500px;
+}
+
+.project-card h2 {
+    padding-top: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #C91B28;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    background-color: #1E1E1E;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 30px 0;
+}
+
+.contact-content {
+    color: #ffffff;
+    width: 40%;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #EF4040;
+    padding: 15px 40px;
+}
+
+.footer-nav {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    padding: 100px 0 40px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: #1E1E1E;
+    padding: 40px 0;
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
+}
+
+
+
+.socials {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+
+    font-size: 30px;
+    gap: 60px;
+}
+
